@@ -1,0 +1,39 @@
+# Binaries
+mcpbuilder
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Coverage
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace
+go.work
+
+# Generated servers
+servers/
+*.db
+
+# Config
+config.yaml
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
